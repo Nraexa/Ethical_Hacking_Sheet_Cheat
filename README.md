@@ -7,7 +7,7 @@ ethicalhacker@kali:~$
 ```
 
 ## usefull links
-# githib repo
+### github repo
 [SecLists](https://github.com/danielmiessler/SecLists)
 
 
