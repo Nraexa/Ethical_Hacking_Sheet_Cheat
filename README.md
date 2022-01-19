@@ -12,7 +12,7 @@ ethicalhacker@kali:~$
 
 [PEASS-ng](https://github.com/carlospolop/PEASS-ng)
 
-[PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology and Resources/Reverse Shell Cheatsheet.md)
+[PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
 
 ## Run openvpn in daemon
 ```console
