@@ -9,8 +9,8 @@ ethicalhacker@kali:~$
 ## usefull links
 ### github repo
 [SecLists](https://github.com/danielmiessler/SecLists)
-
-
+[PEASS-ng](https://github.com/carlospolop/PEASS-ng)
+[PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology and Resources/Reverse Shell Cheatsheet.md)
 
 ## Run openvpn in daemon
 ```console
@@ -40,4 +40,9 @@ ethicalhacker@kali:~$ sudo dirb http(s)://example.com
 ## gobuster    
 ```console
 ethicalhacker@kali:~$ sudo gobuster dir/dns/s3/vhost http(s)://example.com
+```
+
+## Spawn a TTY shell from an interpreter (there exist other alternative)
+```console
+ethicalhacker@kali:~$ python -c 'import pty; pty.spawn("/bin/sh")'
 ```
