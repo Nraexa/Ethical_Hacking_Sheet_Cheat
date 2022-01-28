@@ -18,6 +18,11 @@ ethicalhacker@kali:~$
 ```console
 ethicalhacker@kali:~$ sudo openvpn --config openvpn-file.ovpn --daemon
 ```
+```console
+ethicalhacker@kali:~$ sudo killall openvpn
+```
+
+
 ## Debian-based distro .deb installation
 ```console
 ethicalhacker@kali:~$ sudo dpkg -i <path/of/deb-file>
@@ -33,7 +38,7 @@ ethicalhacker@kali:~$ sudo nano /etc/hosts
 ```
 ## nmap
 ```console
-ethicalhacker@kali:~$ namp ADD USEFULL COMMANDS
+ethicalhacker@kali:~$ nmap ADD USEFULL COMMANDS
 ```
 ## dirb
 ```console
